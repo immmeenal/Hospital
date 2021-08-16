@@ -117,8 +117,12 @@ header .fa-times {
   transform: rotate(180deg);
 }
 
+.background-hm {
+  background-color: rgba(72, 127, 153, 0.1);
+}
+
 .home .content h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--black);
 }
 
@@ -127,8 +131,31 @@ header .fa-times {
 }
 
 .home .content h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--black);
+}
+.about {
+  background: #eee;
+}
+
+.about .content .box {
+  margin: 3rem 0;
+}
+
+.about .content .box h3 {
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
+.about .content .box h3 i {
+  padding: 0 1rem;
+  color: var(--blue);
+}
+
+.about .content .box p {
+  font-size: 1rem;
+  padding-left: 6rem;
+  color: #666;
 }
 
 /* media queries */
