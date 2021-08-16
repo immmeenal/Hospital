@@ -9,4 +9,13 @@ $(window).on('load scroll',function(){
     $('.fa-bars').removeClass('fa-times');
     $('.nav').removeClass('nav-toggle');
 })
+
+$('.facility').magnificPopup({
+    delegate:'a',
+    type:'image',
+    gallery:{
+        enable:true
+    }
+})
+
 });

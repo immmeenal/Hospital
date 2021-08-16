@@ -15,7 +15,7 @@
   text-decoration: none !important;
   text-transform: capitalize;
   font-weight: 400;
-  /* transition: all 0.4s ease-in; */
+  /* transition: all 0.3s linear; */
 }
 *::selection {
   background: var(--black);
@@ -64,6 +64,16 @@ section {
 .button:hover {
   box-shadow: 0.1rem 0.3rem var(--blue), 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
 }
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem;
+  padding-top: 8rem;
+  color: var(--black);
+}
+.heading span {
+  color: var(--blue);
+}
 header {
   width: 100%;
   position: fixed;
@@ -72,7 +82,9 @@ header {
   padding: 2rem 1rem;
   z-index: 1000;
 }
-
+.header-active {
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
 header .container {
   display: flex;
   align-items: center;
@@ -136,6 +148,7 @@ header .fa-times {
 }
 .about {
   background: #eee;
+  /* transition: all 0.4s ease-in; */
 }
 
 .about .content .box {
@@ -156,6 +169,31 @@ header .fa-times {
   font-size: 1rem;
   padding-left: 6rem;
   color: #666;
+}
+
+.facility {
+  min-height: 100vh;
+}
+.facility .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+}
+.facility .box-container .box {
+  height: 10rem;
+  width: 20rem;
+  margin: 0.3rem;
+  overflow: hidden;
+}
+.facility .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* transition: all 0.4s ease-in; */
+}
+.facility .box-container .box:hover img {
+  transform: scale(1.3);
 }
 
 /* media queries */
