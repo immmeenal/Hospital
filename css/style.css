@@ -252,6 +252,34 @@ header .fa-times {
   background: #fff;
   transform: rotate(45deg);
 }
+.counter .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.counter .box-container .box {
+  margin: 2rem 4rem;
+  text-align: center;
+}
+
+.counter .box-container .box i {
+  color: var(--blue);
+  font-size: 4rem;
+}
+
+.counter .box-container .box span {
+  color: var(--black);
+  font-size: 2rem;
+  display: block;
+  padding: 1rem 0;
+}
+
+.counter .box-container .box h3 {
+  color: #666;
+}
+
 /* media queries */
 
 @media (max-width: 768px) {
