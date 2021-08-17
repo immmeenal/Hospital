@@ -323,50 +323,57 @@ select {
 .contact form input[type="submit"]:hover {
   background: var(--black);
 }
-.post .box-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.footer {
+  background: var(--black);
 }
 
-.post .box-container .box {
-  width: 30rem;
-  margin: 2rem 1rem;
-  overflow: hidden;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
-}
-
-.post .box-container .box img {
-  height: 20rem;
-  width: 100%;
-  object-fit: cover;
-}
-
-.post .box-container .box .content {
-  padding: 0 1.5rem;
-}
-
-.post .box-container .box .content span {
-  color: #666;
+.footer p {
   font-size: 1.5rem;
-  display: block;
+  color: #eee;
   padding: 1rem 0;
 }
 
-.post .box-container .box .content h3 {
-  font-size: 2rem;
-  color: var(--black);
+.footer .col-md-4 {
+  padding: 1.3rem;
 }
 
-.post .box-container .box .content:hover h3 {
+.footer .col-md-4:nth-child(1) a {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer .col-md-4:nth-child(1) a span {
   color: var(--blue);
 }
 
-.post .box-container .box .content p {
-  font-size: 1.3rem;
-  color: var(--black);
+.footer a {
+  font-size: 2rem;
+  color: #ccc;
+  display: block;
 }
+
+.footer h3 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.footer a:hover {
+  color: var(--blue);
+}
+
+.footer .credit {
+  color: #fff;
+  width: 80%;
+  margin: 0;
+  padding: 2rem 0;
+  padding-bottom: 4rem;
+  border-top: 0.1rem solid #ccc !important;
+}
+
+.footer .credit span {
+  color: var(--blue);
+}
+
 /* media queries */
 
 @media (max-width: 768px) {
