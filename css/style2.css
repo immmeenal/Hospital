@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400;1,500&display=swap");
+
+:root {
+  --blue: #0188df;
+  --black: #354046;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  font-weight: 400;
+  /* transition: all 0.2s linear; */
+}
+*::selection {
+  background: var(--black);
+  color: #fff;
+}
+
+html {
+  /* font-size: 62.5%; */
+  /* overflow: hidden; */
+}
+body {
+  /* overflow: scroll; */
+  /* overflow-x: hidden; */
+  font-size: 62.5%;
+}
+section {
+  overflow: hidden;
+}
+.heading span {
+  color: var(--blue);
+}
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem 1rem;
+  z-index: 1000;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: var(--black);
+}
+
+header a:hover {
+  color: var(--blue);
+}
+
+header .container .logo {
+  font-size: 3.5rem;
+}
+header .container .logo span {
+  color: var(--blue);
+}
+
+/* .home .content p {
+  font-size: 1rem;
+  color: var(--black);
+} */
+p {
+  color: black !important;
+
+  font-size: 1rem;
+}
+*/ img {
+  float: left;
+}
+.bg-img {
+  background: url(),
+  background-image: linear-gradient(to right, rgba(18, 52, 56, 0), rgba(13, 39, 70, 0))
+      no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.bg-img {
+    background-image: linear-gradient(to right bottom, #b8c8cf, #a3b9d6), url("../images/review1.jpg"); }

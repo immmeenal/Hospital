@@ -15,7 +15,7 @@
   text-decoration: none !important;
   text-transform: capitalize;
   font-weight: 400;
-  /* transition: all 0.3s linear; */
+  /* transition: all 0.2s linear; */
 }
 *::selection {
   background: var(--black);
@@ -24,10 +24,11 @@
 
 html {
   /* font-size: 62.5%; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 body {
-  overflow-x: hidden;
+  /* overflow: scroll; */
+  /* overflow-x: hidden; */
   font-size: 62.5%;
 }
 section {
@@ -56,7 +57,7 @@ section {
   width: 100%;
   background-color: var(--black);
   z-index: -1;
-  transition: 0.2s linear;
+  transition: all 0.4s ease-in;
 }
 .button:hover:before {
   top: 0%;

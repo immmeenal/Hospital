@@ -1,21 +1,19 @@
-$(document).ready(function(){
-    $('.fa-bars').click(function(){
-        $(this).toggleClass('fa-times');
-        $('.nav').toggleClass('nav-toggle');
-    });
+$(document).ready(function () {
+  $(".fa-bars").click(function () {
+    $(this).toggleClass("fa-times");
+    $(".nav").toggleClass("nav-toggle");
+  });
 
-$(window).on('load scroll',function(){
+  $(window).on("load scroll", function () {
+    $(".fa-bars").removeClass("fa-times");
+    $(".nav").removeClass("nav-toggle");
+  });
 
-    $('.fa-bars').removeClass('fa-times');
-    $('.nav').removeClass('nav-toggle');
-})
-
-$('.facility').magnificPopup({
-    delegate:'a',
-    type:'image',
-    gallery:{
-        enable:true
-    }
-})
-
+  $(".facility").magnificPopup({
+    delegate: "a",
+    type: "image",
+    gallery: {
+      enable: true,
+    },
+  });
 });

@@ -2,26 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JEHANGIR HOSPITAL</title>
 
-   <!-- aos css file cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   
+    <!-- aos css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-     <!-- magnific popup css cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
 
- <!-- bootstrap cdn link  -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+ 
 
- <!-- font awesome cdn link  -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-  
+     <!-- custom css file link  -->
+     <link rel="stylesheet" href="css/style.css">
+   
+ <!-- sass-css scrollBar Link 
+ <link
+  rel="stylesheet"
+  href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+/>
+   -->
  <!-- custom css file link  -->
  <link rel="stylesheet" href="css/style.css">
+
+ <!-- custom scrollbar - css  -->
+ <style>
+     ::-webkit-scrollbar{
+         width: 10px;
+     }
+     ::-webkit-scrollbar-track{
+         border-radius: 5px;
+         box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+     }
+     ::-webkit-scrollbar-thumb{
+         border-radius: 5px;
+         background-color: #0188df;
+     }
+     ::-webkit-scrollbar-thumb:hover{
+         background-color: #b5cddd;
+     }
+ </style>
 
 </head>
 <body>
@@ -42,13 +68,14 @@
 
 
     </nav>
-<div class="fas fa-bars"></div>
+   <div class="fas fa-bars"></div>
 
 
 </div>
 </header>
 <!--header section ends-->
-
+<!-- side scroller  starts
+<main id="scroll" data-simplebar> -->
 <!-- home section starts -->
 <section class="home background-hm" id="Home">
 
@@ -63,7 +90,7 @@
             <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
                 <h1><span>stay</span> safe, <span>stay</span> healthy.</h1>
                 <h3>caring for you.</h3>
-                <a href="#"><button class="button">learn more</button></a>
+                <a href="more-info.html"><button class="button">learn more</button></a>
             </div>
     
         </div>
@@ -338,8 +365,11 @@
 <!-- footer section ends -->
 
 
+<!-- </main>
+<aside>
 
-
+</aside>
+side scoller ends  -->
 
 <!--jquery cdn link -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -361,6 +391,10 @@
     });
     
     </script>
+
+<!-- javascript scrollbar link 
+<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script> -->
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NBB0Q89WV5"></script>
 <script>
