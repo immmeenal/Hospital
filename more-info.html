@@ -82,16 +82,75 @@
 
 </style>
 
-
+<section style="margin-top: 0; background-color: rgba(113, 176, 206, 0.1);">
+    <style style="text/css">
+        .bounce {
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+            background: #fefefe;
+            color: #333;
+            border: 1px solid #4a4a4a;
+        }
+        
+        .bounce p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            -moz-transform: translateX(50%);
+            -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+            -moz-animation: bouncing-text 5s linear infinite alternate;
+            -webkit-animation: bouncing-text 5s linear infinite alternate;
+            animation: bouncing-text 10s linear infinite alternate;
+        }
+        
+        @-moz-keyframes bouncing-text {
+            0% {
+                -moz-transform: translateX(50%);
+            }
+            100% {
+                -moz-transform: translateX(-50%);
+            }
+        }
+        
+        @-webkit-keyframes bouncing-text {
+            0% {
+                -webkit-transform: translateX(50%);
+            }
+            100% {
+                -webkit-transform: translateX(-50%);
+            }
+        }
+        
+        @keyframes bouncing-text {
+            0% {
+                -moz-transform: translateX(50%);
+                -webkit-transform: translateX(50%);
+                transform: translateX(50%);
+            }
+            100% {
+                -moz-transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="bg-img">
-        <div class="container">
+        <div class="container" style="text-align: center;">
             <a href="#" class="logo"><span>J</span>ehangir<span>H</span>ospital</a>
         </div>
         <h4 style="text-align: center; font-size: 3rem; color: #0188df;">About Us</h4>
-        <h5 style="float: right;"><span style="color: #0188df;">Home</span>> About Us</h5>
-    </header>
+        <p style="float: right;font-size: 2rem;margin-bottom: 5px;"> 
+             <a href="index.html" style=" color: #0188df; "><strong>Home</strong></a> 
+             <strong>  > About Us</strong>
+            </p>
+            </header>
     
 
     <section style="
@@ -109,9 +168,14 @@
 			<img src="img/4.jpg">
 		</figure>
 	</div>
-    <section style="margin-top: 1rem; background-color: rgba(113, 176, 206, 0.1);">
-       
-        <img src="img/about.jpg">
+    
+    
+        <div class="bounce">
+            <p style="font-size: 1rem;"><strong> Mon - Sat : 08.00 - 20.00
+                  Sunday: 10.00 - 14.00
+                       CONTACT US: 020-66811000  020-66819967  020-66819968 </strong></p>
+        </div>
+        
        
         <p>
             Jehangir Hospital was established in 1946. It began as Jehangir Nursing Home when its founders, Sir Cowasji Jehangir and Lady Hirabai Jehangir, invited the eminent Dr. Edul jee H. Coyaji to set up a facility to offer personalized care of high quality at an affordable price to the people of Poona. On the 6th of February, 1946, it became the city's first significant private hospital with only a few beds.
@@ -134,21 +198,21 @@
          <p>
             Good health isn't simply the absence of disease but the complete physical, mental, and social well-being of a person. At Jehangir hospital, this is a belief that is reflected in its predictive, preventive approach to healthcare. It aims at offering solutions that set a very high standard of preventive and curative treatments.
          </p>
-         <h4 style="text-align: center; font-size: 2rem; color: #0188df;">MISSION</h4>
+         <h4 class="text-style">MISSION</h4>
         <p>
             “Our mission is to provide healthcare of international standards through a team of highly qualified professionals and affordable to the community. We are also committed to maintaining clinical excellence by focussing on healthcare academics, research, and the latest technology.”
         </p>
 
-         <h4 style="text-align: center; font-size: 2rem; color: #0188df;">VISION</h4>
+         <h4 class="text-style">VISION</h4>
          <p>“Our vision is to be the region’s foremost healthcare provider with access to diverse clinical services focusing on consistency in ethical delivery of quality care, research, and use of the best technology.”</p>
-         <h4 style="text-align: center; font-size: 2rem; color: #0188df;">VALUES</h4>
+         <h4 class="text-style">VALUES</h4>
          <p>“We Add Care” by demonstrating our constant commitment towards the principles of ethics through:
             • Commitment to be a leader in healthcare with a human touch
             • Advancing a professional patient-centered approach and serving our community through outreach and social responsibility initiatives
             • Respecting our patients, their families and our co-workers
             • Ensuring innovative approach and facilitating curative research initiatives</p>
          
-         <h4 style="text-align: center; font-size: 2rem; color: #0188df;">CHAIRMAN'S NOTE</h4>
+         <h4 class="text-style">CHAIRMAN'S NOTE</h4>
          <p><strong>“You treat a disease, you win, you lose. You treat a person, I guarantee you, you'll win - no matter what the outcome.” - Patch Adams</strong></p>
         <p>“Retaining our values as we modernize, we add care” perfectly illustrates how we are forging ahead. The patient remains the centre of all our endeavours as we evolve with changing times. Several generations of patients bear testimony to our dedication, to the quality of our care and our sensitivity to all who come through our doors. The continuum of care is an added edge that we offer as a hospital and we aim to be at the top of the list.</p>
     <p>A warm and friendly ambience, high quality medical services and personalized nursing care have been the hallmarks of Jehangir Hospital, ever since its inception in 1946.</p>
@@ -159,8 +223,8 @@
     <p>Our doctors are an integral and vital part of our commitment to deliver exceptional care. Their passion to heal and their constant drive towards higher quality outcomes is unmatched. They are thoroughly professional, approachable and always ready to extend a personal touch. They bring their excellence to speed up the patient’s recovery and return to normal life with the least amount of stress.</p>
     <p>Here, at Jehangir Hospital, we encourage you to be healthy in mind, body and spirit, all of which are the essence of fitness. Good health has always been a priceless asset, and will continue to remain one as well.</p>
     <p>As we evolve, so do our levels of proficiency and merit. We run several programs for our personnel to sustain a high level of academic competence.</p>
-    <p>Changing lifestyles underline the need for us to learn more about our overall well-being and the importance of preventive healthcare. Jehangir Hospital believes in educating people about staying well and driving them toward sustained good health by running awareness programs regularly.</p>
-    <p style="margin-top: 2rem;">We encourage you to stay well."</p>
+    <p>Changing lifestyles underline the need for us to learn more about our overall well-being and the importance of preventive healthcare. Jehangir Hospital believes in educating people about staying well and driving them toward sustained good health by running awareness programs regularly."</p>
+    <p style="margin-top: 2rem;">We encourage you to stay well.</p>
 
     <p style="float: right;">Jehangir H. C. Jehangir <br>
         Chairman, Jehangir Hospital</p>
