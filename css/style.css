@@ -80,17 +80,17 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   z-index: 1000;
 }
 .header-active {
   background: #fff;
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
-header .container {
+header .cont{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 header a {
   color: var(--black);
@@ -100,10 +100,10 @@ header a:hover {
   color: var(--blue);
 }
 
-header .container .logo {
+header .cont .logo {
   font-size: 3.5rem;
 }
-header .container .logo span {
+header .cont .logo span {
   color: var(--blue);
 }
 header .nav ul {
@@ -132,7 +132,16 @@ header .fa-times {
 }
 
 .background-hm {
-  background-color: rgba(72, 127, 153, 0.1);
+  background: url("../images/02.jpg"),
+    linear-gradient(var(--black), var(--black)) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.para {
+  color: white;
+  line-height: 1.5;
 }
 
 .home .content h1 {
