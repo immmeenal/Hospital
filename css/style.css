@@ -87,7 +87,7 @@ header {
   background: #fff;
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
-header .cont{
+header .cont {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -132,11 +132,11 @@ header .fa-times {
 }
 
 .background-hm {
-  background: url("../images/02.jpg"),
+  background: url("../images/bg.jpg"),
     linear-gradient(var(--black), var(--black)) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
 .para {
